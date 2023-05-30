@@ -1,0 +1,35 @@
+.radio-inlineInfoConnection {
+    >label {
+        margin-right: 25px;
+        display: inline-block;
+    }
+}
+
+.connectionLink {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.connectionLink:hover,
+.connectionLink :hover {
+    color: #ffff;
+}
+
+.inputFormInscriptDiv {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.errorsInscription {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: orange;
+    min-height: 50px;
+
+}

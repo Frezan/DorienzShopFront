@@ -1,0 +1,85 @@
+.connectForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inscriptionDiv {
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inscriptionForm {
+    margin-left: 0;
+
+    >h1 {
+        padding-left: 45px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 77px;
+
+        color: #353535;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    >span {
+        padding-left: 45px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+        color: #353535;
+    }
+
+    >a {
+        font-weight: 400;
+        line-height: 24px;
+        color: #606beb;
+    }
+
+    >form {
+        padding-left: 45px;
+    }
+
+    label {
+        display: block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+
+        color: #353535;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .inputForm {
+        width: 250px;
+    }
+
+    @media screen and(max-width:800px) {
+        
+        .inputForm {
+            width: 200px;
+        }
+    }
+}
+
+.inscriptionImg {
+    width: 450px;
+    padding-right: 0px;
+    border-radius: 0px 25px 25px 0px;
+
+}

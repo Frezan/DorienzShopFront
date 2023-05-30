@@ -1,0 +1,170 @@
+.adminProduct {
+    padding: 10px;
+}
+
+.adminProductTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adminProductTitle {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+    >h1 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+}
+
+.adminProductCat {
+    margin-left: 9px;
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.adminProductAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.adminProductTop {
+    display: flex;
+
+}
+
+.adminProductTopLeft,
+.adminProductTopRight {
+    width: 50%;
+}
+
+.adminProductTopRight {
+    display: flex;
+
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.adminProductInfoTop {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+
+}
+
+.adminProductName {
+    font-weight: 600;
+}
+
+.adminProductImg {
+    width: 200px;
+    height: 175px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.adminProductInfoBottom {
+    margin-top: 10px;
+}
+
+.adminProductInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminProductInfoKey {
+    font-weight: 600;
+}
+
+.adminProductInfoValue {
+    font-weight: 300;
+}
+
+.adminProductBottom {
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin: 20px;
+}
+
+.adminProductForm {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.adminProductFormLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminProductFormLeft>label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.adminProductFormLeft>input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gra y;
+}
+
+.adminProductFormLeft>select {
+    margin-bottom: 10px;
+}
+
+.adminProductFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.adminProductUpload {
+    display: flex;
+    align-items: center;
+
+}
+.adminProductUploadImgContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    padding: 0;
+    margin: 0;
+    
+}
+.adminProductUploadImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.adminProductFileInput{
+    cursor: pointer;
+}
+
+.adminProductButton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

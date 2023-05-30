@@ -1,0 +1,36 @@
+.errors{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: orange;
+    min-height: 50px;
+}
+
+.resetPassword{
+    text-decoration: none;
+    color: #606beb;
+}
+.inscriptionLink{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #606beb;
+}
+
+.inscriptionLink:hover, .resetPassword:hover{
+    color: #606beb;
+}
+
+.btnDiv{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.inputFormDiv{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.informationDiv{
+    color:#353535;
+}

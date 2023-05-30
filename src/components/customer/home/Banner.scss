@@ -1,0 +1,30 @@
+.bannerDiv{
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+}
+
+.bannerHome{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:  center;
+    background-color: #000000;
+    height: 500px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+    @media screen and(max-width:1000px) {
+        height: 250px;
+
+        h3{
+            font-size: 22px !important;
+        }
+        p{
+            font-size: 14px !important;
+        }
+    }
+}

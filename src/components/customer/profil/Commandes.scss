@@ -1,0 +1,122 @@
+.commandeDisplay {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.oneCommande {
+    padding: 0;
+    margin: 0;
+}
+
+.commandHeader {
+    //width: 800px;
+
+    background-color: #F0F2F2 !important;
+    border-radius: 8px 8px 0 0;
+    margin-top: 0;
+    padding: 5px 10px;
+
+}
+
+.commandHeaderMain {
+
+
+    @media screen and(max-width:649px) {
+        width: auto;
+        height: auto;
+        
+        .commandHeader-left-title,.commandHeader-rigth-title{
+            padding: 5px;
+        }
+    }
+
+    @media screen and(min-width:650px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+
+.commandHeader-left-title {
+    width: 510px;
+
+
+    >div {
+        width: 33%;
+        display: inline-block;
+        padding: auto;
+
+        >span {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.commandHeader-left-value {
+    width: 510px;
+
+    >div {
+        width: 33%;
+        display: inline-block;
+        padding: auto;
+    }
+}
+
+
+.commandHeader-rigth {
+    padding: 0px;
+}
+
+.commandHeader-rigth-title {
+
+
+
+    >div {
+
+        display: inline-block;
+        padding: auto;
+
+        >span {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.commandHeader-rigth-value {
+
+
+    >div {
+
+        display: inline-block;
+        padding: auto;
+    }
+}
+
+
+
+
+
+
+.commandHeader-actions {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    >ul {
+        list-style: none;
+
+        >li {
+            display: inline-block;
+            padding: 5px;
+        }
+    }
+
+}
